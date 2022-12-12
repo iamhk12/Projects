@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliotek - Developers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Combo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+    <style>
+        * {
+            color: white;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body::before {
+            content: "";
+            z-index: -10; 
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            /* background: url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+
+            background: url('img/backgt.jpg') no-repeat center center/cover;
+            /* background: url('https://colibriwp.com/blog/wp-content/uploads/2019/06/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg') no-repeat center center/cover; */
+            /* random images  */
+            /* filter: brightness(150%); */
+            /*using blur func*/
+
+
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            display: block;
+            font-family: Helvetica, 'Oleo Script', cursive;
+            margin: 10px 0px;
+            /* font-family: 'Oleo Script', cursive; */
+
+        }
+
+        .container {
+            height: 85vh;
+            width: 100vw;
+            display: grid;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .info {
+            backdrop-filter: blur(30px);
+            width: 600px;
+            margin: 30px;
+            border-radius: 20px;
+            padding: 40px;
+            /* border: 1px solid white; */
+            box-shadow: black 0px 0px 170px 1px;
+            font-weight: 600;
+
+        }
+
+        .name {
+            color: wheat;
+            font-size: 35px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-shadow: #000000 0px 5px 10px;
+            /* background-image: linear-gradient(to right,
+                    #ffc56e 0,
+                    #fec97a 22%,
+                    #f6e27a 45%,
+                    #f6f2c0 50%,
+                    #f6e27a 55%,
+                    #cb9b51 78%,
+                    #462523 100%);
+            color: transparent;
+            -webkit-background-clip: text; */
+        }
+
+        .phone {
+            font-size: 25px;
+            margin: 10px;
+        }
+
+        .mail {
+            color: white;
+            font-size: 25px;
+            margin: 10px;
+        }
+
+        .linkedin {
+            font-size: 25px;
+            margin: 10px;
+        }
+
+        .insta {
+            font-size: 25px;
+            margin: 10px;
+        }
+
+        a {
+            color: deepskyblue;
+            font-weight: 500;
+        }
+
+        
+        /* .insta>a {
+            color: white;
+            padding: 3px 10px;
+            font-weight: 700;
+            background: #f09433;
+            background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+            border-radius: 10px;
+            text-shadow: #000000 0px 0px 4px;
+            text-decoration: none;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        Meet the Team of Bibliotek
+    </h1>
+
+    <div class="container">
+
+        <div class="info">
+            <p class="name">Himanshu Kothari</p>
+            <p class="phone"> +91 8779035327 </p>
+            <p class="mail">hkothari247@gmail.com</p>
+            <p class="linkedin">LinkedIn: <a href="https://www.linkedin.com/in/himanshu-kothari-a62413243/"
+                    target="_blank">Contact Himanshu on LinkedIn</a></p>
+            <p class="insta">Instagram: <a href="https://www.instagram.com/_hk12/" target="_blank">@_hk12</a></p>
+        </div>
+
+        <div class="info">
+            <p class="name">Yashas Kulkarni</p>
+            <p class="phone"> +91 9167571178 </p>
+            <p class="mail">yashasmkulkarni@gmail.com</p>
+            <p class="linkedin">LinkedIn: <a href="" target="_blank">Contact Yashas on LinkedIn</a></p>
+            <p class="insta">Instagram: <a href="https://www.instagram.com/kulkarniyashas/"
+                    target="_blank">@kulkarniyashas</a></p>
+        </div>
+
+
+        <div class="info">
+            <p class="name">Nishtha Raut</p>
+            <p class="phone"> +91 9136218201 </p>
+            <p class="mail">nishtharaut06@gmail.com</p>
+            <p class="linkedin">LinkedIn: <a href="https://www.linkedin.com/in/nishtha-raut-291614243"
+                    target="_blank">Contact Nishtha on LinkedIn</a></p>
+            <p class="insta">Instagram: <a href="https://www.instagram.com/rautnishtha/"
+                    target="_blank">@rautnishtha</a></p>
+        </div>
+
+        <div class="info">
+            <p class="name">Anshika</p>
+            <p class="phone"> +91 7057733814 </p>
+            <p class="mail">anshikadwivedi2004@gmail.com</p>
+            <p class="linkedin">LinkedIn: <a href="https://www.linkedin.com/in/anshika-dwivedi-319b75220" target="_blank">Contact Anshika on LinkedIn</a></p>
+            <p class="insta">Instagram: <a href="https://www.instagram.com/anshikaa.dwivedii/"
+                    target="_blank">@anshikaa.dwivedii</a></p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
