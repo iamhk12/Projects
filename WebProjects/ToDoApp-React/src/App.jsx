@@ -1,4 +1,4 @@
-import react, { useState } from 'react'
+import React, { useState } from 'react'
 import Listitem from './Listitem'
 const App = () => {
     const [items, setitems] = useState([])
