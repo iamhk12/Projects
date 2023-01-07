@@ -1,0 +1,212 @@
+#contact {
+    font-size: 20px;
+    /* color: white; */
+    /* background-color: #003D86; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', cursive;
+    height: 93vh;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+#contact .cont {
+    font-size: 30px;
+
+}
+
+.contact-content {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact .cont a {
+    color: #006eff;
+    text-decoration: none;
+}
+
+#contact h2:not(#getin) {
+    text-align: center;
+    margin: 20px 0px;
+    margin-top: 70px;
+}
+
+#contact p {
+    width: 400px;
+    text-align: center;
+    margin: 30px 0px;
+    padding: 0px 30px;
+
+}
+
+#contact .contact-detail,
+#contact address {
+
+    display: block;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contact address {
+    font-size: 25px;
+    margin-top: 60px;
+    font-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+
+#contact .cont {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#contact #lk {
+    text-align: center;
+}
+
+#contact #btnlk {
+    color: #006eff
+}
+
+
+#contact .btn-linkedin i {
+    background: #074b90;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#contact .btn-linkedin {
+    display: inline-block;
+    background: #0a66c2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: #084461;
+    margin: 50px;
+    text-decoration: none;
+}
+
+#contact .btn-linkedin:link,
+#contact .btn-linkedin:visited {
+    color: #fff;
+}
+
+#contact .btn-linkedin:active,
+#contact .btn-linkedin:hover {
+    background: #085caf;
+    color: #fff;
+}
+
+#contact .cont a>img {
+    height: 30px;
+    width: auto;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+#contact input[type="submit"] {
+    background-image: linear-gradient(92.88deg, #2d599f 9.16%, #4b65a9 43.89%, #2c6ab5 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 4rem;
+
+    padding: 0 2.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#contact input[type="submit"]:hover {
+    box-shadow: rgba(57, 125, 227, 0.8) 0 1px 30px;
+    background-image: linear-gradient(92.88deg, #274d8a 9.16%, #405792 43.89%, #245898 64.72%);
+    transition-duration: .2s;
+}
+
+.detailscont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.detailscont input,
+.detailscont textarea {
+    border: 1px solid rgb(40, 40, 40);
+    outline: none;
+    margin-bottom: 15px;
+    padding: 10px 60px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.detailscont input::placeholder,
+.detailscont textarea::placeholder{
+    color: #204764;
+}
+
+.detailscont textarea {
+    /* font-family: 'Poppins'; */
+    height: auto;
+}
+
+.detailscont input:-webkit-autofill,
+.detailscont input:-webkit-autofill:hover,
+.detailscont input:-webkit-autofill:focus,
+.detailscont input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+
+}
+
+@media screen and (max-width:1080px) {
+
+    #line {
+        display: none;
+    }
+
+    #contact p {
+        width: 250px;
+        font-size: 17px;
+    }
+
+    #contact .cont {
+        font-size: 20px;
+    }
+
+    /* .contact-content p{
+        margin: ;
+    } */
+
+    #getin {
+        margin-top: 10px;
+    }
+
+    #contact .btn-linkedin {
+        margin: 30px;
+    }
+}
