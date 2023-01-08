@@ -1,0 +1,1 @@
+mongodb+srv://iamhk12:<password>@cluster0.ujtpsbf.mongodb.net/?retryWrites=true&w=majority

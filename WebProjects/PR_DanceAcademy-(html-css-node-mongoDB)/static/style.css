@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai 2';
+}
+
+body{
+    background-color: #F37970;
+}
+#navbar{
+    position: fixed;
+    background-color: #E43D40;
+    box-shadow: black 0px 0px 60px 10px;
+    display: flex;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    z-index: 10;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+
+#intro::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    z-index: -10;
+    height:100% ;
+    width: 100%;
+    background-image: url('../static/bg.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(40%);
+    padding: 0;
+}
+
+#intro{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FABEC0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    width: 100%;
+}
+
+#intro h1{
+    margin: 10px;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#mission{
+    background-color: #fff1f2;
+}
+
+#mission>h3{
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#missioncontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cardS{
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: 'Baloo Bhai 2';
+}
+.card{
+    border-radius: 10px;
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+    background-color: #FABEC0;
+    color: white;
+    display: flex;
+
+}
+
+.cardhead{
+    text-align: center;
+    backdrop-filter: brightness(50%);
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Baloo Bhai 2';
+}
+
+.cardhead p{
+    position: relative;
+    bottom: 0px;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 30px;
+}
+
+#card1{
+    background-image: url('../static/card1.jpg');
+    background-position: 0px;
+    background-size: cover;
+}
+#card2{
+    background-image: url('../static/card2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#card3{
+    background-image: url('../static/card3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#sponsors{
+    margin-bottom: 100px;
+}
+.sponsorscontent{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#sponsors>h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.spimg{
+    height: 80px;
+    width: auto;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+#foot{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

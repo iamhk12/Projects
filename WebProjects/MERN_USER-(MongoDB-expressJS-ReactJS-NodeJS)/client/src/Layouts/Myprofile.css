@@ -1,0 +1,101 @@
+.mypro {
+    z-index: 10;
+    display: flex;
+    font-family: 'Montserrat', cursive;
+    width: 100%;
+    height: 93vh;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+.inmypro {
+    width: 55vw;
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.mypro .myproright {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+
+    justify-content: center;
+}
+
+.mypro .myproright .det {
+    position: relative;
+    top: -20px;
+}
+
+.mypro .myproright .det p {
+    font-size: 20px;
+}
+
+.mypro .myproright .det p span {
+    font-size: 22px;
+    font-weight: 800;
+    color: rgb(0, 37, 53);
+
+}
+
+
+.mypro .mpleft {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypro .mpleft img {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+}
+@media screen and (max-width:1080px) {
+    .inmypro {
+        position: relative;
+        width: 95vw;
+        height: 90%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mypro .mpleft {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .mypro .mpleft img{
+        width: 40%;
+    }
+
+    .mypro .myproright .det p{
+        font-size:14px;
+    }
+
+    .mypro .myproright .det p span {
+        font-size: 17px;
+    }
+
+    .mypro .myproright {
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: 50px;
+        position: relative;
+        left: -30px;
+        align-items: center;
+        justify-content: center;
+    }
+}

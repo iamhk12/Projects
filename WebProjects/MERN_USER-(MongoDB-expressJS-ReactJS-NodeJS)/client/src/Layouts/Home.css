@@ -1,0 +1,39 @@
+.home {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', cursive;
+    width: 100%;
+    height: 93vh;
+    /* background-color: red; */
+    align-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+.home h3,h1{
+    margin: 15px;
+    text-align: center;
+}
+.home h3{
+    font-size: 27px;
+    color: rgb(0, 32, 81);
+}
+
+#name{
+    font-family: "Baloo Bhai 2";
+    font-size: 50px;
+    letter-spacing: 10px;
+    
+}
+
+.home h1{
+    font-size: 35px;
+}
+.inhome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 30vh;
+}

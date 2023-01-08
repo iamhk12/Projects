@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Combo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            background-color: #303030;
+            /* background-color: #202020; */
+            color: white;
+            font-family: 'Poppins';
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+            align-items: center;
+        
+        }
+
+        .ui {
+            /* background-color: #4f6370;
+            background-color: #4158D0; */
+            /* border: 5px solid rgb(0, 0, 0); */
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.3),
+                    rgba(0, 0, 0, 0.3)),
+                url("https://llandscapes-10674.kxcdn.com/wp-content/uploads/2019/07/mood.jpg.webp");
+            /* linear-gradient(90deg, #536976 0%, #292e49 100%); */
+            /* linear-gradient(43deg, #3046b0 0%, #b04caa 46%, #ffc800 100%); */
+
+            /* background:   ; */
+
+            /* background-image: url("https://llandscapes-10674.kxcdn.com/wp-content/uploads/2019/07/mood.jpg.webp"); */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+
+
+            border-radius: 40px;
+            height: 62vh;
+            width: 17vw;
+            /* height:100%;
+            width:100%; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 10px;
+            /* -webkit-box-shadow: 0px -1px 79px 10px rgba(0, 0, 0, 0.46);
+            -moz-box-shadow: 0px -1px 79px 10px rgba(0, 0, 0, 0.46);
+            box-shadow: 0px -1px 79px 10px rgba(0, 0, 0, 0.46); */
+            box-shadow: #000000 0px 0px 100px 5px;
+
+
+        }
+
+
+        .iconweather {
+            font-size: 60px;
+            order: 1;
+            /* margin-bottom: 40px; */
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .info {
+            margin-top: 50px;
+            display: block;
+            flex-direction: row;
+            align-items: center;
+            order: 2;
+
+        }
+
+        #date,
+        .tempmin_max {
+            font-family: 'Baloo Bhai 2';
+            text-shadow: #000000 0px 0px 5px;
+
+        }
+
+        .fa-sun {
+            color: #ffbb00;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="ui" id="ui">
+
+            <div id="weathericon">
+                <i class="iconweather fa-regular fa-sun"></i>
+            </div>
+
+            <div class="box">
+
+                <div class="info">
+                    <p id="main_wea"
+                        style="text-align:center; margin-bottom:40px; font-family:'Baloo Bhai 2'; font-size: 1.2rem;">Hi
+                    </p>
+                    <h2 class="location"><i class="fa-solid fa-street-view"></i>&nbsp;{%location%},&nbsp;{%country%}
+                    </h2>
+                    <p id="date"> SUN | Oct 30 | 5:00PM </p>
+                    <h1 class="temp">{%tempval%}</h1>
+                    <p class="tempmin_max">Min: {%tempMin%} | Max:{%tempMax%}</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        const currDate = document.getElementById("date");
+        let weathericon = document.getElementById("weathericon")
+        let tempstat = "{%tempstat%}";
+        let mainWea = document.getElementById("main_wea")
+        const getCurrentDay = () => {
+            const weekday = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+
+            let currentTime = new Date();
+            console.log();
+            let day = weekday[currentTime.getDay()] + " ";
+            return day;
+        }
+
+        const getCurrentTime = () => {
+            let now = new Date();
+            let month = now.getMonth();
+            let date = now.getDate();
+
+            let months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+
+            let hours = now.getHours();
+            let min = now.getMinutes();
+
+            let period = "AM";
+
+            if (hours > 11) {
+                period = "PM";
+                if (hours > 12) {
+                    hours = hours - 12;
+                }
+            }
+
+            if (hours == 0) {
+                hours = 12;
+            }
+
+            if (min < 10) {
+                min = "0" + min;
+            }
+            // console.log(date + " / " + months[month]);
+            // console.log("The current time: " + hours +":"+min+" "+period )
+
+            return ` ${months[month]} | ${hours + ":" + min + " " + period} `;
+        }
+
+        currDate.innerHTML = getCurrentDay() + "|" + getCurrentTime();
+
+
+
+        if (tempstat == "Clear") {
+            weathericon.innerHTML = `<i class="iconweather fa-regular fa-sun"></i>`
+        }
+
+        if (tempstat == "Rain" || tempstat == "Drizzle") {
+            weathericon.innerHTML = `<i class="iconweather fa-solid fa-cloud-rain"></i>`;
+        }
+
+        if (tempstat == "Thunderstorm") {
+            weathericon.innerHTML = `<i class="iconweather fa-solid fa-cloud-bolt"></i>`
+        }
+
+        if (tempstat == "Snow") {
+            weathericon.innerHTML = `<i class="iconweather fa-regular fa-snowflake"></i>`
+        }
+        if (tempstat == "Mist" ||
+            tempstat == "Smoke" ||
+            tempstat == "Haze" ||
+            tempstat == "Dust" ||
+            tempstat == "Fog" ||
+            tempstat == "Ash" ||
+            tempstat == "Squall") {
+
+            weathericon.innerHTML = `<i class="iconweather fa-solid fa-smog"></i>`
+            mainWea.innerHTML = `${tempstat}`;
+        }
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
