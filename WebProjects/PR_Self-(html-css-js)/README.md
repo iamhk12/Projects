@@ -14,7 +14,7 @@ The website is currently hosted on the link given below.
 
 ## Link
 
-<a href="https://hk12.netlify.app/">Click Here to visit my webpage.</a>
+<a href="https://hk12.netlify.app/">CLICK HERE TO VISIT.</a>
 
 
 ## Installation
