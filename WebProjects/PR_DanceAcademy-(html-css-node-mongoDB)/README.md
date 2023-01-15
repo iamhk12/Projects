@@ -8,7 +8,7 @@
 <br/>
 <br/>
 
-It also generates data of the details of users and stored them in database.<br/>
+It also generates data of the details of users and store them in database.<br/>
 It consists of node_modules.
 
 
