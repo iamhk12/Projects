@@ -18,7 +18,7 @@
 
 For installation refer to the documents provided by Tailwind CSS official website.
 <br/>
-<a href="https://tailwindcss.com/docs/installation"> ...Go to TailwindCSS installation guide. </a>
+<a href="https://tailwindcss.com/docs/installation" target="_blank"> ...Go to TailwindCSS installation guide. </a>
 
 <br/>
 <br/><br/>
