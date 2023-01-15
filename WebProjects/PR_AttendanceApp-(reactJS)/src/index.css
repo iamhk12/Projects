@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat&family=Poppins&display=swap');
+/*
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+
+  background-color: #303841;
+  padding: 0;
+}
+
+.container {
+  /* background-color: #395087; */
+  /* background-image: url("https://images.pexels.com/photos/3510717/pexels-photo-3510717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.backdrop {
+  min-height: 100%;
+  width: 100%;
+  /* backdrop-filter: brightness(40%); */
+  display: flex;
+  overflow-y: auto;
+  flex-direction: row;
+}
+
+.centerdiv {
+
+  background-color: #303841;
+  border-radius: 30px;
+  box-shadow: #00000063 15px 20px 40px;
+  border-radius: 45px;
+  background: #303841;
+  box-shadow: 28px 28px 55px #252c33,
+    -28px -28px 55px #3b444f;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  position: relative;
+}
+
+.rightcon {
+  width: 50%;
+  min-height: 90%;
+  background-color: #303841;
+  margin: 40px;
+  border-radius: 15px;
+  border: 1px solid white;
+
+
+}
+
+.rightcon h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #ffffff;
+  margin: 60px 0px;
+}
+
+
+.centerdiv h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input-div input {
+  outline: none;
+  border: none;
+  background-color: #8196c800;
+  color: white;
+  margin: 5px 20px;
+  border-bottom: 2px solid #ffffff;
+  font-size: 20px;
+  padding: 20px 40px;
+}
+
+.input-div input:focus {
+  border-bottom: 4px solid #2c6bff;
+
+}
+
+::placeholder {
+  color: #cecece
+}
+
+.input-div button {
+  background-color: #405cf5;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+  margin: 30px;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.input-div button:hover {
+  background-color: #334de0;
+  
+}
+
+.rightcon ol {
+  margin-top: 40px;
+  /* list-style: none; */
+  margin: 40px;
+}
+
+.rightcon ol li {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  color: #f9fcff;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: left;
+  padding-left: 50px;
+}
+
+.centerdiv ol button {
+  box-shadow: rgba(0, 0, 0, 0.495) 0px 0px 10px;
+  background-color: #395087;
+  padding: 0px 20px;
+  color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.centerdiv ol button:hover {
+  background-color: #f97c7c;
+  color: black;
+}
+
+@media screen and (min-width:768px) {
+  .backdrop {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  .container {
+    overflow: hidden;
+  }
+
+  .centerdiv {
+    width: 100vw;
+    border-radius: 0px;
+    padding: 20px 0px;
+  }
+
+  .centerdiv h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+  }
+
+  .input-div input {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .rightcon {
+    width: 100%;
+    margin: 40px 0px;
+    border: none;
+  }
+
+  .backdrop {
+    padding: 0px;
+    justify-content: none;
+    flex-direction: column;
+  }
+
+  .rightcon ol li {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #f9fcff;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: left;
+    margin: 30px 10px;
+  }
+
+  .rightcon ol {
+    padding-left: 40px;
+    margin: 0px;
+
+  }
+
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+}
