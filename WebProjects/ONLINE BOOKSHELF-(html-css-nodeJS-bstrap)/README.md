@@ -17,8 +17,6 @@ It consists of node_modules.
 
 ## Screenshots
 <br/>
-<br/>
-<br/>
 
 ![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/ONLINE%20BOOKSHELF-(html-css-nodeJS-bstrap)/ss/loginpage.png)
 <hr>
