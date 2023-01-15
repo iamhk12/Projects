@@ -34,7 +34,7 @@ BEFORE LOGIN :
 <br/>
 <br/>
 
-AFTER LOGIN :
+<h3 align="center">AFTER LOGIN/h3>
 
 
 <br/>
@@ -72,6 +72,6 @@ The command must be run in two different terminals.
 
 Note :  Create a database in MongoDB (local/atlas) and add an enviromental varaible in a config.env file.
 <br/><br/>
-
+<br/><br/>
 Regards,<br/>
-Himanshu Kothari
+Himanshu Kothari.
