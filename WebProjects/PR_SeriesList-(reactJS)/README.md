@@ -6,7 +6,9 @@
 * It fetches data from local storage and shows favourite show mentioned.
 
 <br/>
-It also redirects user to the preferred webpage to watch.
+It also redirects user to the preferred webpage to watch.<br/>
+This is a responsive app.
+
 
 
 ## Screenshot
