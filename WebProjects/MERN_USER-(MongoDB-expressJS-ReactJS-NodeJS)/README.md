@@ -70,4 +70,4 @@ The command must be run in two different terminals.
   node app
 ```
 
-Note :  Create a database in MongoDB (local/atlas) and add an enviromental varaible.
+Note :  Create a database in MongoDB (local/atlas) and add an enviromental varaible in a config.env file.
