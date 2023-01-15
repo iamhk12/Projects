@@ -9,7 +9,7 @@
 <br/>
 <br/>
 
-It also user middleware and dynamically generated cookies for authentication.
+It also user middleware and dynamically generated cookies for authentication.<br/>
 The user passwords are hashed in database for privacy as well as security.
 
 
@@ -18,7 +18,7 @@ The user passwords are hashed in database for privacy as well as security.
 ## Screenshots
 <br/>
 <br/>
-BEFORE LOGIN :
+<h3 align="center">BEFORE LOGIN</h3>
 
 <br/>
 <br/>
@@ -34,7 +34,7 @@ BEFORE LOGIN :
 <br/>
 <br/>
 
-<h3 align="center">AFTER LOGIN/h3>
+<h3 align="center">AFTER LOGIN</h3>
 
 
 <br/>
