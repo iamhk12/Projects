@@ -14,7 +14,7 @@
 
 ## Screenshots
 
-![App Screenshot](https://github.com/iamhk12/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/beforeloginmain.png)
+![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/loginpage.png)
 
 
 ## Installation
