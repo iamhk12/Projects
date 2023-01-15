@@ -18,14 +18,14 @@ It consists of node_modules.
 ## Screenshots
 <br/>
 
-![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/ONLINE%20BOOKSHELF-(html-css-nodeJS-bstrap)/ss/loginpage.png)
+![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/ONLINE_BOOKSHELF-(html-css-nodeJS-bstrap)/ss/loginpage.png)
 <hr>
 
-![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/ONLINE%20BOOKSHELF-(html-css-nodeJS-bstrap)/ss/studentpage.png)
+![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/ONLINE_BOOKSHELF-(html-css-nodeJS-bstrap)/ss/studentpage.png)
 <hr>
 
 
-![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/ONLINE%20BOOKSHELF-(html-css-nodeJS-bstrap)/ss/coursepage.png)
+![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/ONLINE_BOOKSHELF-(html-css-nodeJS-bstrap)/ss/coursepage.png)
 
 <br/>
 <br/>
