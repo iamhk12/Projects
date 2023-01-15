@@ -1,11 +1,8 @@
 
 
-# Project Dance-Academy
+# FB Loginpage - TWCSS
 
 * A simple clone of a social networking site using Tailwind CSS.
-
-<br/>
-<br/>=
 
 
 ## Screenshot
