@@ -27,9 +27,6 @@ This is a responsive page.
   npm i
   node index.js
 ```
-
-<br/><br/>
-
 Note :  You will need a openweather account for the above project
 
 
