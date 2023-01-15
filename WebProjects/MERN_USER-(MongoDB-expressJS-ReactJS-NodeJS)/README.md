@@ -24,24 +24,24 @@ BEFORE LOGIN :
 <br/>
 
 ![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/loginpage.png)
-<br/>
+<hr>
 ![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/registerpage.png)
-<br/>
+<hr>
 ![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/loginbefore.png)
 
 <br/>
 <br/>
 
 AFTER LOGIN :
-<hr>
+
 
 <br/>
 <br/>
 
 ![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/homepage.png)
-<br/>
+<hr>
 ![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/myprofile.png)
-<br/>
+<hr>
 ![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/contactme.png)
 
 
