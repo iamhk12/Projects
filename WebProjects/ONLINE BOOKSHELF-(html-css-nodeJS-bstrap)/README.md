@@ -27,7 +27,7 @@ It consists of node_modules.
 <hr>
 
 
-![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/coursepage.png)
+![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/ONLINE%20BOOKSHELF-(html-css-nodeJS-bstrap)/ss/coursepage.png)
 
 <br/>
 <br/>
