@@ -42,10 +42,7 @@ It consists of node_modules.
   npm i
   node index.js
 ```
-
-
-Note :  Create a database in MongoDB (local/atlas) and add an enviromental varaible in a config.env file.
-<br/><br/>
+<br/>
 <br/><br/>
 Regards,<br/>
 Himanshu Kothari.
