@@ -4,8 +4,6 @@
 
 * Personal website.
 
-<br/>
-<br/>
 
 Ihe repository consists of my own portfolio website.<br/>
 The website is currently hosted on the link given below.
