@@ -5,6 +5,9 @@
 * A react project.
 * It uses hooks and states to store the tasks of the user in the app.
 
+<br/>
+
+This is a responsive app.
 
 ## Screenshot
 <br/>
