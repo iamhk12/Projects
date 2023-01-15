@@ -9,12 +9,25 @@
 <br/>
 <br/>
 
+It also user middleware and dynamically generated cookies for authentication.
+The user passwords are hashed in database for privacy as well as security.
+
 
 
 
 ## Screenshots
 
+BEFORE LOGIN :
+
 ![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/loginpage.png)
+![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/registerpage.png)
+![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/loginbefore.png)
+
+AFTER LOGIN :
+
+![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/homepage.png)
+![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/myprofile.png)
+![App Screenshot](https://github.com/iamhk12/Projects/blob/main/WebProjects/MERN_USER-(MongoDB-expressJS-ReactJS-NodeJS)/ss/contactme.png)
 
 
 ## Installation
