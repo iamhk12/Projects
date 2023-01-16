@@ -11,7 +11,7 @@ app.use(express.json())
 dotenv.config({ path: "./config.env" })
 
 const db = process.env.DATABASE;
-const port = process.env.PORT
+const port = process.env.PORT || 5000
 
 require("./db/connectDB")
 
