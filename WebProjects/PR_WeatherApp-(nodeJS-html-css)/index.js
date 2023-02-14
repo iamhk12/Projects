@@ -2,6 +2,7 @@ const http = require("http");
 const fs = require("fs");
 const requests = require("requests")
 const port = process.env.PORT || 5000
+const app = require("express")();
 
 const HOME = fs.readFileSync("home.html", "utf-8");   //homepage
 // console.log(HOME);
@@ -36,6 +37,6 @@ const server = http.createServer((req, res) => {
 });
 
 
-server.listen(port, "127.0.0.1", () => {
-    console.log("listening at port 80")
+app.listen(port, () => {
+    console.log("listening at port ",port);
 })
