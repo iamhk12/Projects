@@ -4,7 +4,7 @@ const requests = require("requests")
 const port = process.env.PORT || 5000
 const app = require("express")();
 
-const HOME = fs.readFileSync("home.html", "utf-8");   //homepage
+const HOME = fs.readFileSync("index.html", "utf-8");   //homepage
 // console.log(HOME);
 // const replaceVal = (htmlfile, org)=>{
 //     var htmldata = htmlfile.replace("{%tempval%}",org.main.temp);
